@@ -14,5 +14,14 @@
     <p>My name is <em>Sapir</em></br></p>
     <h2>My facebook page:</br> <a href="https://www.facebook.com/sapir.bar.399?ref=bookmarks"><b>Facebook</b></a></h2>
   </div>
+
+  {% for post in posts %}
+      <div>
+          <p>published: {{ post.published_date }}</p>
+          <h1><a href="">{{ post.title }}</a></h1>
+          <p>{{ post.text|linebreaksbr }}</p>
+      </div>
+  {% endfor %}
+
 </body>
 </html>
