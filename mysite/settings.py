@@ -25,7 +25,7 @@ SECRET_KEY = '!vpz$o@u@$649j+!=2yljl*43hpgk6b!l1=u(d=sk5g3!%0+-('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '<SapirBar>.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'SapirBar.pythonanywhere.com']
 
 
 # Application definition
